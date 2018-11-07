@@ -114,6 +114,8 @@
                         });
                     });
 
+                router.get('/api/ns/logout', controllers.authentication.logout);
+
                 callback();
             }
         }
